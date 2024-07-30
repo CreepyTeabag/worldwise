@@ -1,8 +1,24 @@
-# React + Vite
+# Worldwise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Учебный проект, сделанный при прохождении курса The Ultimate React Course (Jonas Schmedtmann, Udemy). 
+Проект сделан на реакте. Отработанные темы, библиотеки и технологии:
+- geolocation API
+- Context API
+- useReducer
+- leaflet
+- CSS modules
+- json-server
+- react-router-dom
+- react-datepicker
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Функционал
+- SPA
+- Переход по страницам при помощи react-router
+- Возможность отмечать посещённые города на карте с автоматическим подбором названия города
+- Выбор даты посещения
+- Сохранение заметки о поездке
+- Использование текущего местонахождения пользователя
+- Работает только при запущенном JSON server:
+  - Сохранение списка всех совершённых поездок
+  - Просмотр старых записей о поездках
+  - Автоматическое создание списка посещённых стран на основе данных о посещённых городах
